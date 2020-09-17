@@ -27,23 +27,17 @@
 * Find a dataset of your choice at [kaggle.com](https://kaggle.com/) and repeat your analysis for the dataset you downloaded
 
 ## 4. Univariate linear regression (Chapter 18)
-* Practice univariate linear regression - [notebook](../notebooks/Univariate_linear_regression.ipynb)
-* Learn to normalize data - [notebook](../notebooks/normalization_techniques.ipynb)
-* Find a dataset of your choice at [kaggle.com](https://kaggle.com/)
-* From this dataset, select two variables (one input and one output) and perform univariate linear regression
-  - Check that the variables you select are continuous
+* Practice univariate linear regression - [lecture](https://youtu.be/yH7AUm2EHTM)
+* Learn to normalize data - [lecture](https://youtu.be/Tu8Dl3zorgg)
+* Find a dataset of your choice (other than the pima diabetes dataset), select two variables (one input and one output), perform univariate linear regression, and submit your notebook.
 
 ## 5. Linear regression with two input variables (Chapter 18)
-* Practice linear regression with two input variables - [notebook](../notebooks/Linear_regression_2_inputs.ipynb)
-* Find a dataset of your choice at Kaggle
-* From this dataset, select three variables (two input and one output) and perform regression
-  - Check that the variables you select are continuous
+* Practice linear regression with two input variables - [lecture](https://youtu.be/IOaif62O06k)
+* Find a dataset of your choice (other than the pima diabetes dataset), select three variables (two input and one output), perform regression, and submit your notebook.
 
 ## 6. Logistic regression (Chapter 18)
-* Practice logistic regression - [notebook](../notebooks/Logistic_regression.ipynb)
-* Find a classification dataset of your choice at Kaggle
-* From this dataset, select three variables (two input and one output) and perform regression
-  - Check that the output variable is binary
+* Practice logistic regression - [lecture](https://youtu.be/KEYgPOcqmsw)
+* Find a classification dataset of your choice  (other than the pima diabetes dataset), select at least three variables (two input and one binary output), perform logistic regression, and submit your notebook.
 
 ## 7. Binary classification using NN
 * Group discussion of "[A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)"
