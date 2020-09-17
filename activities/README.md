@@ -40,7 +40,7 @@
 * Find a classification dataset of your choice  (other than the pima diabetes dataset), select at least three variables (two input and one binary output), perform logistic regression, and submit your notebook.
 
 ## 7. Binary classification using NN
-* Group discussion of "[A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)"
+* Read "[A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)"
 * Practice binary classification - [notebook](../notebooks/Binary_classification.ipynb)
 * Find a classification dataset of your choice at Kaggle
   - Check that the output variable is binary
