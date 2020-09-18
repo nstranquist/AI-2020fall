@@ -14,9 +14,9 @@
 --------------  
 
 ## 1. Python
-* Watch how to use [Google Colab](https://www.youtube.com/watch?v=PVsS9WtwVB8)
-* Practice Python3 - [notebook](../notebooks/python.ipynb) and watch [lecture](https://www.youtube.com/watch?v=V42qfAPybp8)
-* If you are new to Python, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/)
+* In this activity, you will learn how to use Google Colab and the basics of Python3. If you are doing Python programming for the first time, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/) too.
+   * Lectures: [Google Colab](https://www.youtube.com/watch?v=PVsS9WtwVB8) and [Python3](https://www.youtube.com/watch?v=V42qfAPybp8)
+   * Notebooks: [Python3](../notebooks/python.ipynb)
 
 ## 2. Numpy, Matplotlib
 * Practice Numpy - [notebook](../notebooks/numpy.ipynb) and [lecture](https://www.youtube.com/watch?v=Omz8P8n-5gY)
