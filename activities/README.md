@@ -14,20 +14,23 @@
 --------------  
 
 ## 1. Python
-In this activity, you will learn how to use Google Colab and practice Python3. If you are doing Python programming for the first time, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/) too. Please submit a link to your notebook where you practiced Python3.
+In this activity, the task is to learn how to use Google Colab and practice Python3. If you are doing Python programming for the first time, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/) too.
 * Lectures: [Google Colab](https://www.youtube.com/watch?v=PVsS9WtwVB8) and [Python3](https://www.youtube.com/watch?v=V42qfAPybp8)
 * Notebooks: [Python3](../notebooks/python.ipynb)
+What to submit? 
+* A link to your notebook where you practiced Python3.
 
 ## 2. Numpy, Matplotlib
-In this activity, you will practice Numpy, Matplotlib, and Plotly. Please submit a link to your notebook where you practiced Numpy, Matplotlib, and Plotly.
+In this activity, the task is to practice Numpy, Matplotlib, and Plotly. Please submit a link to your notebook where you practiced Numpy, Matplotlib, and Plotly.
 * Lectures: [Numpy](https://www.youtube.com/watch?v=Omz8P8n-5gY) and [Matplotlib & Plotly](https://youtu.be/aIzkkjRzVdA)
 * Notebooks: [Numpy](../notebooks/numpy.ipynb) and [Matplotlib & Plotly](../notebooks/matplotlib_plotly.ipynb)
 
 ## 3. Basic data analysis using Pandas
-* Practice Pandas - [notebook](../notebooks/pandas.ipynb)
-* Find a dataset of your choice at [kaggle.com](https://kaggle.com/) and repeat your analysis for the dataset you downloaded
+The goal in this activity is to learn how to use Pandas for basic data analysis. After learning the basics of Pandas from the resources below, repeat the steps for a different dataset of your choice. Please submit a link to your notebook where you performed data analysis using Pandas, on a dataset other than the 'pima-diabetes' datasert.
+* Notebooks: [Pandas](../notebooks/pandas.ipynb)
 
 ## 4. Univariate linear regression (Chapter 18)
+* In this activity, the task is to practice univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset). 
 * Practice univariate linear regression - [lecture](https://youtu.be/yH7AUm2EHTM)
 * Learn to normalize data - [lecture](https://youtu.be/Tu8Dl3zorgg)
 * Find a dataset of your choice (other than the pima diabetes dataset), select two variables (one input and one output), perform univariate linear regression, and submit your notebook.
