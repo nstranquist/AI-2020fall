@@ -14,13 +14,14 @@
 --------------  
 
 ## 1. Python
-In this activity, you will learn how to use Google Colab and the basics of Python3. If you are doing Python programming for the first time, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/) too.
+In this activity, you will learn how to use Google Colab and practice Python3. If you are doing Python programming for the first time, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/) too. Please submit a link to your notebook where you practiced Python3.
 * Lectures: [Google Colab](https://www.youtube.com/watch?v=PVsS9WtwVB8) and [Python3](https://www.youtube.com/watch?v=V42qfAPybp8)
 * Notebooks: [Python3](../notebooks/python.ipynb)
 
 ## 2. Numpy, Matplotlib
-* Practice Numpy - [notebook](../notebooks/numpy.ipynb) and [lecture](https://www.youtube.com/watch?v=Omz8P8n-5gY)
-* Practice Matplotlib & Plotly - [notebook](../notebooks/matplotlib_plotly.ipynb) and [lecture](https://youtu.be/aIzkkjRzVdA)
+In this activity, you will practice Numpy, Matplotlib, and Plotly. Please submit a link to your notebook where you practiced Numpy, Matplotlib, and Plotly.
+* Lectures: [Numpy](https://www.youtube.com/watch?v=Omz8P8n-5gY) and [Matplotlib & Plotly](https://youtu.be/aIzkkjRzVdA)
+* Notebooks: [Numpy](../notebooks/numpy.ipynb) and [Matplotlib & Plotly](../notebooks/matplotlib_plotly.ipynb)
 
 ## 3. Basic data analysis using Pandas
 * Practice Pandas - [notebook](../notebooks/pandas.ipynb)
