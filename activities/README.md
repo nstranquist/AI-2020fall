@@ -40,14 +40,13 @@
 * Find a classification dataset of your choice  (other than the pima diabetes dataset), select at least three variables (two input and one binary output), perform logistic regression, and submit your notebook.
 
 ## 7. Binary classification using NN
+* Practice binary classification - [lecture](https://youtu.be/PM6uvCLyeXM)
 * Read "[A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)"
-* Practice binary classification - [notebook](../notebooks/Binary_classification.ipynb)
-* Find a classification dataset of your choice at Kaggle
-  - Check that the output variable is binary
-  - Evaluate your model using accuracy, precision, and recall
+* Find a classification dataset of your choice, and do the following:
   - Build a binary NN classifier for your dataset
+  - Evaluate your model using accuracy, precision, and recall
   - Build a logistic regression model and observe the accuracy, i.e. compare the performance of the neural network with a logistic regression model
-  - What is the baseline accuracy?
+  - What is the baseline accuracy for your problem?
 
 ## 8. Breadth-first search (BFS) tree (Chapter 3)
 1. Study and discuss the BFS algorithm.   
@@ -84,8 +83,8 @@
   ```
 
 ## 10. Regression using NN and evaluation
-* Practice regression using neural networks - [notebook](../notebooks/Regression_NN.ipynb)
-* Find a regression dataset of your choice at kaggle; make sure that the output variable is continuous real-valued
+* Practice regression using neural networks - [lecture](https://youtu.be/RG3QB7HGcVM)
+* Find a regression dataset of your choice (check to make sure that the output variable is continuous real-valued)
 * On your new dataset, do the following:
   1. Train a regression neural neural network model
   1. Compare the MAE of your model with MAE of a linear regression model (only 1 layer)
