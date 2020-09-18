@@ -22,13 +22,19 @@ What to submit?
 * A link to your notebook where you practiced Python3.
 
 ## 2. Numpy, Matplotlib
-In this activity, the task is to practice Numpy, Matplotlib, and Plotly. Please submit a link to your notebook where you practiced Numpy, Matplotlib, and Plotly.
+In this activity, the task is to practice Numpy, Matplotlib, and Plotly.
 * Lectures: [Numpy](https://www.youtube.com/watch?v=Omz8P8n-5gY) and [Matplotlib & Plotly](https://youtu.be/aIzkkjRzVdA)
 * Notebooks: [Numpy](../notebooks/numpy.ipynb) and [Matplotlib & Plotly](../notebooks/matplotlib_plotly.ipynb)
 
+What to submit?  
+* A link to your notebook where you practiced Numpy, Matplotlib, and Plotly.
+
 ## 3. Basic data analysis using Pandas
-The goal in this activity is to learn how to use Pandas for basic data analysis. After learning the basics of Pandas from the resources below, repeat the steps for a different dataset of your choice. Please submit a link to your notebook where you performed data analysis using Pandas, on a dataset other than the 'pima-diabetes' datasert.
+In this activity, the goal is to learn how to use Pandas for basic data analysis. After learning the basics of Pandas from the resources below, the task is to repeat the steps for a different dataset of your choice, on a dataset other than the 'pima-diabetes' dataset.
 * Notebooks: [Pandas](../notebooks/pandas.ipynb)
+
+What to submit?  
+* A link to your notebook where you performed data analysis using Pandas.
 
 ## 4. Univariate linear regression (Chapter 18)
 * In this activity, the task is to practice univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset). 
