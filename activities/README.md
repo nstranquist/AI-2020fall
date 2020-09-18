@@ -92,6 +92,7 @@
   1. Which is the best loss function for your output variable? mae, mse, mean_squared_logarithmic_error, or logcosh?
 
 ## 11. Overfitting vs generalization
+1. Understand the concept of overfitting, underfitting, generalization, and data splitting by watching this [lecture](https://youtu.be/1EfGsw-Szyg). 
 1. Pick a classification dataset of your choice.
 1. Shuffle the rows
    ```python
