@@ -16,8 +16,8 @@
 ## 1. Python
 In this activity, the task is to learn how to use Google Colab and practice Python3. If you are doing Python programming for the first time, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/) too.
 * Lectures: [Google Colab](https://www.youtube.com/watch?v=PVsS9WtwVB8) and [Python3](https://www.youtube.com/watch?v=V42qfAPybp8)
-* Notebooks: [Python3](../notebooks/python.ipynb)
-What to submit? 
+* Notebooks: [Python3](../notebooks/python.ipynb)  
+What to submit?   
 * A link to your notebook where you practiced Python3.
 
 ## 2. Numpy, Matplotlib
