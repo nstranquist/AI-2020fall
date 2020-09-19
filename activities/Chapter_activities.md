@@ -44,7 +44,7 @@ This is not a programming activity, you will solve it in paper. For the followin
 ## 15. Implement BM25 function (Chapter 22)  
 The objective in this activity is to search for 'relevant' document/s in a document corpus (database) by implementing the [BM25 scoring function](./bm25.png). Task: A search query “Word1 Word2” is being scored against 40 documents. The number of times the words “Word1” and “Word2” appear in each of the documents is given in the [table](./bm25.csv). Write a Python program to calculate the BM25 score for the query against all the documents and rank the documents by their BM25 score. You will need to compute IDF, DF, TF, N, L, etc. by reading the table. Assume k = 1.2 and b = 0.75. The code block below suggests the structure for your implementation.
 
-* Lectures: [BM25 scoring function](https://www.youtube.com/watch?v=a3sg6MH8m4k&t=7s)
+* Lectures: [BM25 scoring function](https://www.youtube.com/watch?v=a3sg6MH8m4k)
 
 ```python
 # Step 1: for loops to calculate IDF for Word1 and Word2
@@ -61,11 +61,12 @@ for each ...:
 ```
 
 ## 16. Implement PageRank algorithm (Chapter 22)
-* The objective in this activity is to implement a basic version of the PageRank algorithm - a core algorithm originally developed by Google for ranking pages. [This 12 minute youtube](https://youtu.be/CsvyPNdQAHg) video explains the basic idea. Here is the expression for the original version of the PageRank algorithm.  
-  <img src="pagerankalgo.png" align="middle" width="450"/>
-* Task: For the network shown below, calculate the PageRank of the pages A, B, and C, and D by writing a Python program to iteratively obtain the final page ranks. Assume that the damping parameter d is 0.7.   
+The objective in this activity is to implement a basic version of the PageRank algorithm - a core algorithm originally developed by Google for ranking pages. [Here](./pagerankalgo.png) is the expression for the original version of the PageRank algorithm. Task: For the network shown below, calculate the PageRank of the pages A, B, and C, and D by writing a Python program to iteratively obtain the final page ranks. Assume that the damping parameter d is 0.7. Please follow the solution structure provided in the code block below.   
+* Lectures: [The page-rank algorithm](https://youtu.be/CsvyPNdQAHg).
+
   <img src="pagerankproblem.png" align="middle" width="200"/>  
-* Structure for the solution:
+
+Structure for the solution:
   ```python
   # Step1. Initialize the constants N and d
   # Step2. Assume that all page ranks are 1.0 at the beginning
