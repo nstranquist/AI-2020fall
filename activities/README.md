@@ -38,7 +38,7 @@ What to submit?
 
 ## 4. Univariate linear regression (Chapter 18)
 In this activity, the goal is to practice univariate linear regression. When selecting variables (columns) for performing linear regression, it is important to choose continuous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
-* Lectures: [Univariate Linear Regression](https://youtu.be/yH7AUm2EHTM) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
+* Lectures: [Univariate Linear Regression](https://youtu.be/yH7AUm2EHTM), [Data cleaning](https://youtu.be/RdXN4qjxRag), and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
 * A link to your notebook where you performed univariate linear regression.
