@@ -37,33 +37,33 @@ What to submit?
 * A link to your notebook where you performed data analysis using Pandas.
 
 ## 4. Univariate linear regression (Chapter 18)
-In this activity, the goal is to practice univariate linear regression. When selecting  variables, i.e. your data columns, for performing linear regression, it is important to choose continuous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
+In this activity, the goal is to practice univariate linear regression. When selecting variables (columns) for performing linear regression, it is important to choose continuous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
 * Lectures: [Univariate Linear Regression](https://youtu.be/yH7AUm2EHTM) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
-* A link to your notebook where you performed univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
+* A link to your notebook where you performed univariate linear regression.
 
 ## 5. Linear regression with at least two input variables (Chapter 18)
-In this activity, the goal is to practice linear regression on a dataset with more than one input variables. When selecting  variables, i.e. data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
+In this activity, the goal is to practice linear regression on a dataset with more than one input variables. When selecting variables (columns) for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
 * Lectures: [Linear regression with two input variables](https://youtu.be/IOaif62O06k) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
-* A link to your notebook where you performed linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
+* A link to your notebook where you performed linear regression.
 
 ## 6. Logistic regression (Chapter 18)
-In this activity, the goal is to practice logistic regression on a dataset with more than one input variables. When selecting  variables, i.e. data columns, for performing logistic regression, it is important to the output variable as a binary variable, i.e. the values of the output variable must be 0 or 1, nothing else. Before feeding the data to the model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for classification to work. Here, the task is to perform logistic regression on a dataset of your choice (other than the 'pima-diabetes' dataset). 
+In this activity, the goal is to practice logistic regression on a dataset with more than one input variables. When selecting variables (columns) for performing logistic regression, it is important to select a binary variable (i.e. the values of this variable must be 0 or 1, nothing else) as the output variable. Before feeding the data to the model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for classification to work. Here, the task is to perform logistic regression on a dataset of your choice (other than the 'pima-diabetes' dataset). 
 * Lectures: [Logistic regression](https://youtu.be/KEYgPOcqmsw) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
-* A link to your notebook where you performed logistic regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
+* A link to your notebook where you performed logistic regression.
 
 ## 7. Binary classification using NN
-In this activity, the goal is to practice training a neural network model to perform binary classification. A neural network classifier should also be more accurate than a basic logistic regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A binary classifier can be evaluated using metrics such as accuracy, precision, and recall. Interpreting the accuracy of a binary classifier can be a little tricky. This is because the baseline accuracy, i.e., minimum accuracy, is at least 50%. A good classifier should have the accuracy much higher than its baseline accuracy. The tasks in this activity are (i) Build a neural network classifier for a dataset of your choice, (ii) Evaluate your model using accuracy, precision, and recall, (iii) Compare the accuracy of your model with the baseline accuracy, and (iv) Compare the performance of the neural network with a logistic regression model.
+In this activity, the goal is to practice training a neural network model to perform binary classification. A neural network classifier should be more accurate than a basic logistic regression model. This is because a neural network model has more parameters (weights and biases) to learn the patterns in the data. A binary classifier can be evaluated using metrics such as accuracy, precision, and recall. Interpreting the accuracy of a binary classifier can be tricky. This is because the baseline accuracy, i.e., minimum accuracy, is at least 50%. A good classifier should result in an accuracy that is much higher than a baseline accuracy. The tasks in this activity are (i) Build a neural network classifier for a dataset of your choice, (ii) Evaluate your model using accuracy, precision, and recall, (iii) Compare the accuracy of your model with the baseline accuracy, and (iv) Compare the performance of the neural network with a logistic regression model.
 * Lectures: [Binary classification](https://youtu.be/PM6uvCLyeXM)
 * Articles: [A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
 
 What to submit?  
-* A link to your notebook along with the answers to all the four questions.
+* A link to your notebook along with your findings and discussions.
 
 ## 8. See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#8-breadth-first-search-bfs-tree-chapter-3).
 
