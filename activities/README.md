@@ -151,17 +151,15 @@ What to submit?
    1. an underfit model that does not have sufficient capacity (also may imply that the data itself is difficult)
 
 ## 14. Fine-tuning hyper-parameters of your model
-* Find a classification dataset of your choice
-* Split into training and validation set
-* Your goal is to find the optimal hyper-parameters that maximize the accuracy (or minimize MAE) on the validation set
-  You can try the following:
-  * Increase the number of layers
-  * Increasing the number of neurons in each layer
-  * Study how the number of layers and number of neurons in each layer affect the model's performance on validation set
-* Verify that the number of parameters in your model is optimal
-  * Show that two different models with slightly smaller parameters do not perform as good
-  * Show that two different models with slightly larger parameters do not perform as good
-* Why are the parameters such as #of neurons, #of layers, #of epochs, batch size, activation functions, etc. call hyper-parameters and not just parameters?
+In this activity, the task is to learn how to design and train a model that does well on the unseen (validation) daset. The weights and biases of a neural network model are its parameters. The parameters such as the number of layers of neurons, numbers of neurons in each layer, number of epochs, batch size, activation functions, choice of optimizer, choice of loss function, etc. are the hyperparameters of a model. When training a model for a new dataset an extremely important question is - what combinations of hyperameters yield the maximum accuracy on the validation set? The task is in this activity is to try as many hyperparameters as possible to obtain the highest possible accuracy on the validation set. For a **classification dataset of your choice**, the first step is to create a notebook where you can train the model using the training set and evaluate on the validation set. Then, the objective is to find the optimal (best) hyper-parameters that maximize the accuracy (or minimize MAE) on the validation set. Below are the hyperparameters to optimize:
+1. The number of layers in the neural network (try 1, 2, 4, 8, 16, etc.).
+1. The number of neurons in each layer (try 2, 4, 8, 16, 32, 64, 128, 256, 512, etc.).
+1. Various batch sizes (8, 16, 32, 64, etc.).
+1. Various number of epochs (2, 4, 8, ..., 5000, etc.).
+1. Various optimizers (rmsprop, sgd, nadam, adam, gd, etc.)
+
+What to submit?  
+* A link to your notebook with all the experiments.
 
 ## 15. See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#15-implement-bm25-function-chapter-22).
 
