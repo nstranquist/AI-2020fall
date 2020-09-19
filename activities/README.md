@@ -104,53 +104,47 @@ In this activity, the goal is to practice training a neural network model to per
 * Lecture: [Regression using neural networks](https://youtu.be/RG3QB7HGcVM)
 
 What to submit?  
-* A link to your notebook along with the answers to all the questions.
+* A link to your notebook along with the answers to the questions.
 
 ## 11. Overfitting vs generalization
-1. Understand the concept of overfitting, underfitting, generalization, and data splitting by watching this [lecture](https://youtu.be/1EfGsw-Szyg). 
-1. Pick a classification dataset of your choice.
-1. Shuffle the rows
-   ```python
-   # Shuffle
-   import random
-   np.random.shuffle(dataset)
-   ```
-1. Split into training and validation set. For small datasets, ~30% works. For larger datasets, smaller percents can be enough.
-   ```python
-   # Index for 30%
-   index_30percent = int(0.3 * len(dataset[:, 0]))
-   print(index_30percent)
-   # Split into training and validation
-   XVALID = dataset[:index_30percent, "all input columns"]
-   YVALID = dataset[:index_30percent, "output column"]
-   XTRAIN = dataset[index_30percent:, "all input columns"]
-   YTRAIN = dataset[index_30percent:, "output column"]
-   ```
-    <img src="xysplit.png" align="middle" width="800"/>
-1. If you are normalizing your data, only use the XTRAIN and YTRAIN to obtain the normalization parameters (mean/std). Do not use XVALID or YVALID.
-1. Build a NN model to overfit the training set (to get ~100% accuracy) and then evalute on the validation set and observe the accuracy
-   1. Learn the model from training set
-      ```python
-      model.fit(XTRAIN, YTRAIN, ...)
-      ```
-   1. Evaluate on XTRAIN
-      ```python
-      P = model.predict(XVALID)
-      MAE = abs(YTRAIN - P)
-      ```
-   1. Normalize XVALID and YVALID using the mean/std/Ymax obtained from XTRAIN/YTRAIN
-   1. Predict for validation set and evaluate
-      ```
-      P = model.predict(XVALID)
-      MAE = abs(YVALID - P)
-      ```
-   1. Plot true vs prediction plots for sets (training and validation) and compare the plots
-1. Answer the following questions:
-   1. Does your model perform better on the training set or validation set? Is this a problem? How to avoid this problem?
-   1. Why can over-training be a problem?
-   1. What is "generalization"?
-   1. What is over-fitting?
-   1. Why should you not use XVALID/YVALID during normalization?
+In this activity, the goal is to learn the concepts of overfitting, underfitting, generalization, and the purpose of splitting the dataset into training set and validation set. For a standard tabular classification dataset of your choice, i.e. the output variable is a binary variable, the first step is to shuffle the rows (see code block below for example). The next step is to split the rows into training and validation set. For small datasets around 30% works. For larger datasets, smaller percents can be enough (see code block below for example). This splitting yeilds XTRAIN, YTRAIN, XVALID, and YVALID numpy arrays. For normalizing the data and to obtain the 'mean' and 'standard deviation' it is important to only use the XTRAIN array, not XVALID. XVALID should be normalized using the mean and standard deviation obtained from XTRAIN. The tasks in this activity are: (i) Build a neural network model to overfit the training set (to get almost 100% accuracy) and then evalute on the validation set, and (ii) Plot true vs prediction plots, one for the training dataset and one for the validation dataset. In addition, answer the following questions in your notebook: (i) Does your model perform better on the training set or validation set? Is this a problem? How to avoid this problem? (ii) Why can over-training be a problem? (iii) What is the difference between generalization, overfitting, and underfitting? (iv) Why should you not use XVALID/YVALID during normalization?
+* Lectures: [Overfitting, generalization, and data splitting](https://youtu.be/1EfGsw-Szyg). 
+
+```python
+# Shuffle the datasets
+import random
+np.random.shuffle(dataset)
+```
+
+```python
+# Split into training and validation, 30% validation set and 70% training 
+index_30percent = int(0.3 * len(dataset[:, 0]))
+print(index_30percent)
+XVALID = dataset[:index_30percent, "all input columns"]
+YVALID = dataset[:index_30percent, "output column"]
+XTRAIN = dataset[index_30percent:, "all input columns"]
+YTRAIN = dataset[index_30percent:, "output column"]
+```
+
+```python
+# Learn the model from training set
+model.fit(XTRAIN, YTRAIN, ...)
+```
+      
+```python
+# Evaluate on the training set (should deliver high accuracy)
+P = model.predict(XTRAIN)
+accuracy = model.evaluate(XTRAIN, YTRAIN)
+```
+
+```python
+#Evaluate on the validation set
+P = model.predict(XVALID)
+accuracy = model.evaluate(XTRAIN, YTRAIN)
+```
+
+What to submit?  
+* A link to your notebook along with the answers to the questions.
 
 ## 12. Alpha-beta pruning (Chapter 5)
 * This is not a programming activity, you will solve it in paper.
