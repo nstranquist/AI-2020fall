@@ -37,15 +37,18 @@ What to submit?
 * A link to your notebook where you performed data analysis using Pandas.
 
 ## 4. Univariate linear regression (Chapter 18)
-In this activity, the goal is to practice univariate linear regression. When selecting  variables, i.e. your data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
+In this activity, the goal is to practice univariate linear regression. When selecting  variables, i.e. your data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
 * Lectures: [Univariate Linear Regression](https://youtu.be/yH7AUm2EHTM) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
 * A link to your notebook where you performed univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
 
-## 5. Linear regression with two input variables (Chapter 18)
-* Practice linear regression with two input variables - [lecture](https://youtu.be/IOaif62O06k)
-* Find a dataset of your choice (other than the pima diabetes dataset), select three variables (two input and one output), perform regression, and submit your notebook.
+## 5. Linear regression with at least two input variables (Chapter 18)
+In this activity, the goal is to practice linear regression on a dataset with more than one input variables. When selecting  variables, i.e. data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
+* Lectures: [Linear regression with two input variables](https://youtu.be/IOaif62O06k)
+
+What to submit?  
+* A link to your notebook where you performed linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
 
 ## 6. Logistic regression (Chapter 18)
 * Practice logistic regression - [lecture](https://youtu.be/KEYgPOcqmsw)
