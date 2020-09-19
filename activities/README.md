@@ -123,31 +123,31 @@ What to submit?
 ## 12. See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#12-alpha-beta-pruning-chapter-5).
  
 ## 13. Learning curves
-1. Read [this](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/) blog about learning curves.
-1. Find a regression dataset of your choice. Shuffle it, split it, and train a model.
-1. Obtain learning curves for your dataset
-   ```python
-   # Do the training (specify the validation set as well)
-   history = model.fit(XTRAIN, YTRAIN, validation_data=(XVALID, YVALID), ...)
-   # Check what's in the history
-   print(history.params)
-   # Plot the learning curves (loss/accuracy/MAE)
-   plt.plot(history.history['loss']) # replace with accuracy/MAE
-   plt.plot(history.history['val_accuracy']) # replace with val_accuracy, etc.
-   plt.ylabel('Accuracy')
-   plt.xlabel('epoch')
-   plt.legend(['training data', 'validation data'], loc='lower right')
-   plt.show()
-   ```
-1. Using your dataset, produce the learning curves that represent the following cases:
+The goal in this activity is to plot learning curves and to interpret various learning curves. For a regression dataset of your choice, the first step is to shuffle the dataset. The next step is to split the dataset into the four arrays: XTRAIN, YTRAIN, XVALID, and YVALID. The next step is to train a neural network model using `model.fit()`. However, this time, XVALID and YVALID will also be passed as arguments to the `model.fit()` method. This is so when we call the method, it can evaluate the model on the validation set at the end of each epoch (see code block below). When calling the `model.fit()` method we can also save its output in a variable, usually named `history`. This variable can be used to plot learning curves (see code block below). The task in this activity is to plot many learning curves in various scenarios. In particular, it is of intererest to observe and analyze how the learning plots look like various settings. The following article discusses learning curves in more detail.
+* Articles: [Learning curves for diagnosing machine learning modelperformance](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)
+
+```python
+# Do the training (specify the validation set as well)
+history = model.fit(XTRAIN, YTRAIN, validation_data = (XVALID, YVALID), verbose = 1)
+# Check what's in the history
+print(history.params)
+# Plot the learning curves (loss/accuracy/MAE)
+plt.plot(history.history['loss']) # replace with accuracy/MAE
+plt.plot(history.history['val_accuracy']) # replace with val_accuracy, etc.
+plt.ylabel('Accuracy')
+plt.xlabel('epoch')
+plt.legend(['training data', 'validation data'], loc='lower right')
+plt.show()
+```
+
+What to submit?  
+* A link to your notebook where you produce the learning curves that represent the following cases:
    1. too small validation dataset (relative to training set)
    1. too small training set (relative to validation set)
    1. a good learning curve (practically good)
    1. an overfitting model
    1. a model that clearly requires further training
    1. an underfit model that does not have sufficient capacity (also may imply that the data itself is difficult)
-1. Interpret the following learning curve:   
-   <img src="learningcurve.png" align="middle" width="450"/>
 
 ## 14. Fine-tuning hyper-parameters of your model
 * Find a classification dataset of your choice
