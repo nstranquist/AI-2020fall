@@ -7,6 +7,7 @@ Tracing the [breadth-first search (BFS) algorithm](./bfs.png) for a problem resu
 With the help of the code blocks provided below, implement the BFS algorithm (in Python) to find the shortest path from Sibiu to Bucharest in the following map.
 
    <img src="map-romania-trimmed.png" align="middle" width="250"/>   
+   
 ```Python
 '''
 Queues in Python:
