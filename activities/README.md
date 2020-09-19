@@ -66,38 +66,10 @@ What to submit?
 * A link to your notebook along with the answers to all the four questions.
 
 ## 8. Breadth-first search (BFS) tree (Chapter 3)
-1. Study and discuss the BFS algorithm.   
-   <img src="bfs.png" align="middle" width="450"/>
-1. Study and discuss the BFS tree below.   
-   <img src="bfstree.png" align="middle" width="450"/>
-1. Here is a map of some international airports in India. Nick wants to go to Amritsar from Chennai (see the map). IN PAPER, draw a BFS tree for the graph of airport cities with starting node as Chennai (C).  
-   <img src="iia.png" align="middle" width="350"/>
+See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#8-breadth-first-search-bfs-tree-chapter-3).
 
 ## 9. Implement the breadth-first search (BFS) algorithm (Chapter 3)
-* Implement the BFS algorithm (in Python) to find the shortest path from Sibiu to Bucharest in this map.  
-   <img src="map-romania-trimmed.png" align="middle" width="250"/>   
-* Queues in Python:
-  ```Python
-  # Initializing a queue 
-  queue = []  
-  # Adding elements to the queue 
-  queue.append('a') 
-  queue.append('b') 
-  queue.append('c') 
-  # Print
-  print(queue) 
-  # Removing elements from the queue 
-  print("\nElements dequeued from queue") 
-  print(queue.pop(0)) 
-  print(queue.pop(0)) 
-  print(queue) 
-  ```
-* Representing a graph using dictionary (values are lists of neighbors):
-  ```
-  graph = {} 
-  graph['A'] = ['B', 'C']
-  graph['B'] = ['A', 'D', 'E']
-  ```
+See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#9-implement-the-breadth-first-search-bfs-algorithm-chapter-3).
 
 ## 10. Regression using NN and evaluation
 In this activity, the goal is to practice training a neural network model to perform regression, i.e. predict continuous values. A neural network regression model should also be more accurate than a basic linear regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A regression model can be evaluated using metrics such as mean absolute error (MAE). The tasks in this activity are: (i) Build a neural network regression model for a dataset of your choice, (ii) Evaluate your model using MAE, (iii) Compare the MAE of your model with a linear regression model, (iv) Assess if your model is biased towards predicting either larger values more correctly or smaller values more correctly. Additionally, it is also important to experiment with various loss functions such as mae, mse, mean_squared_logarithmic_error, and logcosh, to find out which delivers the lowest MAE.
