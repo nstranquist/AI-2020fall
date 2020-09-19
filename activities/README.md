@@ -140,7 +140,7 @@ accuracy = model.evaluate(XTRAIN, YTRAIN)
 ```python
 #Evaluate on the validation set
 P = model.predict(XVALID)
-accuracy = model.evaluate(XTRAIN, YTRAIN)
+accuracy = model.evaluate(XVALID, YVALID)
 ```
 
 What to submit?  
