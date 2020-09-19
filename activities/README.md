@@ -37,7 +37,7 @@ What to submit?
 * A link to your notebook where you performed data analysis using Pandas.
 
 ## 4. Univariate linear regression (Chapter 18)
-In this activity, the goal is to practice univariate linear regression. When selecting  variables, i.e. your data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
+In this activity, the goal is to practice univariate linear regression. When selecting  variables, i.e. your data columns, for performing linear regression, it is important to choose continuous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
 * Lectures: [Univariate Linear Regression](https://youtu.be/yH7AUm2EHTM) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
@@ -58,7 +58,7 @@ What to submit?
 * A link to your notebook where you performed logistic regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
 
 ## 7. Binary classification using NN
-In this activity, the goal is to practice training a neural network model to perform binary classification. A neural network classifier should also be more accurate than a basic logistic regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A binary classifier can be evaluated using metrics such as accuracy, precision, and recall. Interpreting the accuracy of a binary classifier can be a little tricky. This is because the baseline accuracy, i.e., minimum accuracy, is at least 50%. A good classifier should have the accuracy much higher than its baseline accuracy. The tasks in this activity are (i) Build a neural network classifier for a dataset of your choice, (ii) Evaluate your model using accuracy, precision, and recall, (iv) Compare the accuracy of your model with the baseline accuracy, and (iii) Compare the performance of the neural network with a logistic regression model.
+In this activity, the goal is to practice training a neural network model to perform binary classification. A neural network classifier should also be more accurate than a basic logistic regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A binary classifier can be evaluated using metrics such as accuracy, precision, and recall. Interpreting the accuracy of a binary classifier can be a little tricky. This is because the baseline accuracy, i.e., minimum accuracy, is at least 50%. A good classifier should have the accuracy much higher than its baseline accuracy. The tasks in this activity are (i) Build a neural network classifier for a dataset of your choice, (ii) Evaluate your model using accuracy, precision, and recall, (iii) Compare the accuracy of your model with the baseline accuracy, and (iv) Compare the performance of the neural network with a logistic regression model.
 * Lectures: [Binary classification](https://youtu.be/PM6uvCLyeXM)
 * Articles: [A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
 
@@ -100,13 +100,11 @@ What to submit?
   ```
 
 ## 10. Regression using NN and evaluation
-* Practice regression using neural networks - [lecture](https://youtu.be/RG3QB7HGcVM)
-* Find a regression dataset of your choice (check to make sure that the output variable is continuous real-valued)
-* On your new dataset, do the following:
-  1. Train a regression neural neural network model
-  1. Compare the MAE of your model with MAE of a linear regression model (only 1 layer)
-  1. Is your model biased? i.e. in your true/prediction plot does your model predict smaller values more correctly or larger values more correctly?
-  1. Which is the best loss function for your output variable? mae, mse, mean_squared_logarithmic_error, or logcosh?
+In this activity, the goal is to practice training a neural network model to perform regression, i.e. predict continuous values. A neural network regression model should also be more accurate than a basic linear regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A regression model can be evaluated using metrics such as mean absolute error (MAE). The tasks in this activity are: (i) Build a neural network regression model for a dataset of your choice, (ii) Evaluate your model using MAE, (iii) Compare the MAE of your model with a linear regression model, (iv) Assess if your model is biased towards predicting either larger values more correctly or smaller values more correctly. Additionally, it is also important to experiment with various loss functions such as mae, mse, mean_squared_logarithmic_error, and logcosh, to find out which delivers the lowest MAE.
+* Lecture: [Regression using neural networks](https://youtu.be/RG3QB7HGcVM)
+
+What to submit?  
+* A link to your notebook along with the answers to all the questions.
 
 ## 11. Overfitting vs generalization
 1. Understand the concept of overfitting, underfitting, generalization, and data splitting by watching this [lecture](https://youtu.be/1EfGsw-Szyg). 
