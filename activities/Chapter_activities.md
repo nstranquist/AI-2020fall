@@ -1,33 +1,39 @@
 ## 8. Breadth-first search (BFS) tree (Chapter 3)
-Tracing the [breadth-first search (BFS) algorithm](./bfs.png) for a problem results in a BFS tree. [Here](./bfstree.png) is an example BFS tree. Below is a map highlighting some of the international airports in India. Nick wants to go to Amritsar from Chennai. In PAPER, draw a BFS tree for the graph of airport cities with starting node as Chennai (C).  
+Tracing the [breadth-first search (BFS) algorithm](./bfs.png) for a problem results in a BFS tree. [Here](./bfstree.png) is an example BFS tree. Below is a map of India highlighting some of the international airports in the country. Nick wants to go to Amritsar from Chennai. In PAPER, draw a BFS tree for the graph of airport cities with starting node as Chennai (C).  
 
 <img src="iia.png" align="middle" width="350"/>
 
 ## 9. Implement the breadth-first search (BFS) algorithm (Chapter 3)
-* Implement the BFS algorithm (in Python) to find the shortest path from Sibiu to Bucharest in this map.  
+With the help of the code blocks provided below, implement the BFS algorithm (in Python) to find the shortest path from Sibiu to Bucharest in the following map.
+
    <img src="map-romania-trimmed.png" align="middle" width="250"/>   
-* Queues in Python:
-  ```Python
-  # Initializing a queue 
-  queue = []  
-  # Adding elements to the queue 
-  queue.append('a') 
-  queue.append('b') 
-  queue.append('c') 
-  # Print
-  print(queue) 
-  # Removing elements from the queue 
-  print("\nElements dequeued from queue") 
-  print(queue.pop(0)) 
-  print(queue.pop(0)) 
-  print(queue) 
-  ```
-* Representing a graph using dictionary (values are lists of neighbors):
-  ```
-  graph = {} 
-  graph['A'] = ['B', 'C']
-  graph['B'] = ['A', 'D', 'E']
-  ```
+```Python
+'''
+Queues in Python:
+'''
+# Initializing a queue 
+queue = []  
+# Adding elements to the queue 
+queue.append('a') 
+queue.append('b') 
+queue.append('c') 
+# Print
+print(queue) 
+# Removing elements from the queue 
+print("\nElements dequeued from queue") 
+print(queue.pop(0)) 
+print(queue.pop(0)) 
+print(queue) 
+```
+
+```
+'''
+Representing a graph using dictionary (values are lists of neighbors):
+'''
+graph = {} 
+graph['A'] = ['B', 'C']
+graph['B'] = ['A', 'D', 'E']
+```
 
 ## 12. Alpha-beta pruning (Chapter 5)
 * This is not a programming activity, you will solve it in paper.
