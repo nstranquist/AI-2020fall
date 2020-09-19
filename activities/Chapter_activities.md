@@ -41,25 +41,24 @@ This is not a programming activity, you will solve it in paper. For the followin
  
 <img src="alpha-beta.png" align="middle" width="800"/>
 
-## 15. Implement BM25 function (Chapter 22)
-* The objective in this activity is to search for 'relevant' document/s in a document corpus (database) by implementing the [BM25 scoring function](./bm25.png). Task: A search query “Word1 Word2” is being scored against 40 documents. The number of times the words “Word1” and “Word2” appear in each of the documents is given in the [table](./bm25.csv). Write a Python program to calculate the BM25 score for the query against all the documents and rank the documents by their BM25 score. You will need to compute IDF, DF, TF, N, L, etc. by reading the table. Assume k = 1.2 and b = 0.75. The code block below suggests the structure for your implementation.
+## 15. Implement BM25 function (Chapter 22)  
+The objective in this activity is to search for 'relevant' document/s in a document corpus (database) by implementing the [BM25 scoring function](./bm25.png). Task: A search query “Word1 Word2” is being scored against 40 documents. The number of times the words “Word1” and “Word2” appear in each of the documents is given in the [table](./bm25.csv). Write a Python program to calculate the BM25 score for the query against all the documents and rank the documents by their BM25 score. You will need to compute IDF, DF, TF, N, L, etc. by reading the table. Assume k = 1.2 and b = 0.75. The code block below suggests the structure for your implementation.
 
 * Lectures: [BM25 scoring function](https://www.youtube.com/watch?v=a3sg6MH8m4k&t=7s)
 
-Structure for the solution:
-  ```python
-  # Step 1: for loops to calculate IDF for Word1 and Word2
-  ...
-  # Step 2: for loop to calculate L
-  ...
-  # Step 3: create a dictionary/list to maintain BM25 for each document
-  bm25 = {}
-  # Step 4: for loop to calculate BM25 for each document
-  for each ...:
-    bm25[doci] = ...
-  # Step 5: display documents sorted by score 
-  ...
-  ```
+```python
+# Step 1: for loops to calculate IDF for Word1 and Word2
+...
+# Step 2: for loop to calculate L
+...
+# Step 3: create a dictionary/list to maintain BM25 for each document
+bm25 = {}
+# Step 4: for loop to calculate BM25 for each document
+for each ...:
+ bm25[doci] = ...
+# Step 5: display documents sorted by score 
+...
+```
 
 ## 16. Implement PageRank algorithm (Chapter 22)
 * The objective in this activity is to implement a basic version of the PageRank algorithm - a core algorithm originally developed by Google for ranking pages. [This 12 minute youtube](https://youtu.be/CsvyPNdQAHg) video explains the basic idea. Here is the expression for the original version of the PageRank algorithm.  
