@@ -65,11 +65,9 @@ In this activity, the goal is to practice training a neural network model to per
 What to submit?  
 * A link to your notebook along with the answers to all the four questions.
 
-## 8. Breadth-first search (BFS) tree (Chapter 3)
-See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#8-breadth-first-search-bfs-tree-chapter-3).
+## 8. See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#8-breadth-first-search-bfs-tree-chapter-3).
 
-## 9. Implement the breadth-first search (BFS) algorithm (Chapter 3)
-See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#9-implement-the-breadth-first-search-bfs-algorithm-chapter-3).
+## 9. See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#9-implement-the-breadth-first-search-bfs-algorithm-chapter-3).
 
 ## 10. Regression using NN and evaluation
 In this activity, the goal is to practice training a neural network model to perform regression, i.e. predict continuous values. A neural network regression model should also be more accurate than a basic linear regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A regression model can be evaluated using metrics such as mean absolute error (MAE). The tasks in this activity are: (i) Build a neural network regression model for a dataset of your choice, (ii) Evaluate your model using MAE, (iii) Compare the MAE of your model with a linear regression model, (iv) Assess if your model is biased towards predicting either larger values more correctly or smaller values more correctly. Additionally, it is also important to experiment with various loss functions such as mae, mse, mean_squared_logarithmic_error, and logcosh, to find out which delivers the lowest MAE.
