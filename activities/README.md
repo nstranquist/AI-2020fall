@@ -77,7 +77,7 @@ What to submit?
 * A link to your notebook along with the answers to the questions.
 
 ## 11. Overfitting vs generalization
-In this activity, the goal is to learn the concepts of overfitting, underfitting, generalization, and the purpose of splitting a dataset into training set and validation set. For a standard tabular classification dataset of your choice, i.e. the output variable is a binary variable, the first step is to shuffle the rows (see code block below for example). The next step is to split the rows into training and validation set. For small datasets around 30% works. For larger datasets, smaller percents can be enough. This splitting yeilds XTRAIN, YTRAIN, XVALID, and YVALID numpy arrays (see code block below for example). For normalizing the data and to obtain the 'mean' and 'standard deviation' it is important to only use the XTRAIN array, not XVALID. XVALID should be normalized using the mean and standard deviation obtained from XTRAIN. The tasks in this activity are: (i) Build a neural network model to overfit the training set (to get almost 100% accuracy) and then evalute on the validation set, and (ii) Evaluate the accuracy of the model for the training set and the validation set. In addition, answer the following questions in your notebook: (i) Does your model perform better (in terms of accuracy) on the training set or validation set? Is this a problem? How to avoid this problem? (ii) Why can over training be a problem? (iii) What is the difference between generalization, overfitting, and underfitting? (iv) Why should you not normalize XVALID separately, i.e. why should we use the parameters from XTRAIN to normalize XVALID?  
+In this activity, the goal is to learn the concepts of overfitting, underfitting, generalization, and the purpose of splitting a dataset into training set and validation set. For a standard tabular classification dataset of your choice, i.e. the output variable is a binary variable, the first step is to shuffle the rows (see example code below). The next step is to split the rows into training and validation set. For small datasets, selecting a random 30% of the rows as the validation set and leaving the rest as the training set works well. For larger datasets, smaller percents can be enough. This splitting yeilds four numpy arrays - XTRAIN, YTRAIN, XVALID, and YVALID (see example code below). For normalizing the data and to obtain the 'mean' and 'standard deviation' it is important to only use the XTRAIN array, not XVALID. XVALID should be normalized using the mean and standard deviation obtained from XTRAIN. Then the main question one should ask is - if a model is trained using the training data (XTRAIN and YTRAIN) how does it perform on the validation set (XVALID and YVALID). In this activity the tasks are: (i) Build a neural network model to overfit the training set (to get almost 100% accuracy or as high as it is possible) and then evalute on the validation set, and (ii) Evaluate the accuracy of the model for the training set and the validation set. To obtain high accuracy on the training set one can build a larger neural network (with more layers and more neurons per layer) and train as long as possible.
 * Lectures: [Overfitting, generalization, and data splitting](https://youtu.be/1EfGsw-Szyg) 
 
 ```python
@@ -114,7 +114,11 @@ accuracy = model.evaluate(XVALID, YVALID)
 ```
 
 What to submit?  
-* A link to your notebook along with the answers to the questions.
+* A link to your notebook where you have completed the tasks. The notebook should also have answers to the following questions: 
+  1. Does your model perform better (in terms of accuracy) on the training set or validation set? Is this a problem? How to avoid this problem?
+  1. Why can over training be a problem?
+  1. What is the difference between generalization, overfitting, and underfitting?
+  1. Why should you not normalize XVALID separately, i.e. why should we use the parameters from XTRAIN to normalize XVALID?  
 
 ## 12. See [here](https://github.com/badriadhikari/AI-2020fall/blob/master/activities/Chapter_activities.md#12-alpha-beta-pruning-chapter-5).
  
