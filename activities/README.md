@@ -45,23 +45,25 @@ What to submit?
 
 ## 5. Linear regression with at least two input variables (Chapter 18)
 In this activity, the goal is to practice linear regression on a dataset with more than one input variables. When selecting  variables, i.e. data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).  
-* Lectures: [Linear regression with two input variables](https://youtu.be/IOaif62O06k)
+* Lectures: [Linear regression with two input variables](https://youtu.be/IOaif62O06k) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
 
 What to submit?  
 * A link to your notebook where you performed linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
 
 ## 6. Logistic regression (Chapter 18)
-* Practice logistic regression - [lecture](https://youtu.be/KEYgPOcqmsw)
-* Find a classification dataset of your choice  (other than the pima diabetes dataset), select at least three variables (two input and one binary output), perform logistic regression, and submit your notebook.
+In this activity, the goal is to practice logistic regression on a dataset with more than one input variables. When selecting  variables, i.e. data columns, for performing logistic regression, it is important to the output variable as a binary variable, i.e. the values of the output variable must be 0 or 1, nothing else. Before feeding the data to the model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for classification to work. Here, the task is to perform logistic regression on a dataset of your choice (other than the 'pima-diabetes' dataset). 
+* Lectures: [Logistic regression](https://youtu.be/KEYgPOcqmsw) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
+
+What to submit?  
+* A link to your notebook where you performed logistic regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
 
 ## 7. Binary classification using NN
-* Practice binary classification - [lecture](https://youtu.be/PM6uvCLyeXM)
-* Read "[A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)"
-* Find a classification dataset of your choice, and do the following:
-  - Build a binary NN classifier for your dataset
-  - Evaluate your model using accuracy, precision, and recall
-  - Build a logistic regression model and observe the accuracy, i.e. compare the performance of the neural network with a logistic regression model
-  - What is the baseline accuracy for your problem?
+In this activity, the goal is to practice training a neural network model to perform binary classification. A neural network classifier should also be more accurate than a basic logistic regression model. This is because the neural network model has more parameters (weights and biases) to learn the patterns in the data. A binary classifier can be evaluated using metrics such as accuracy, precision, and recall. Interpreting the accuracy of a binary classifier can be a little tricky. This is because the baseline accuracy, i.e., minimum accuracy, is at least 50%. A good classifier should have the accuracy much higher than its baseline accuracy. The tasks in this activity are (i) Build a neural network classifier for a dataset of your choice, (ii) Evaluate your model using accuracy, precision, and recall, (iv) Compare the accuracy of your model with the baseline accuracy, and (iii) Compare the performance of the neural network with a logistic regression model.
+* Lectures: [Binary classification](https://youtu.be/PM6uvCLyeXM)
+* Articles: [A Visual and Interactive Guide to the Basics of Neural Networks](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+
+What to submit?  
+* A link to your notebook along with the answers to all the four questions.
 
 ## 8. Breadth-first search (BFS) tree (Chapter 3)
 1. Study and discuss the BFS algorithm.   
