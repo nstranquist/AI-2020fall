@@ -37,10 +37,11 @@ What to submit?
 * A link to your notebook where you performed data analysis using Pandas.
 
 ## 4. Univariate linear regression (Chapter 18)
-* In this activity, the task is to practice univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset). 
-* Practice univariate linear regression - [lecture](https://youtu.be/yH7AUm2EHTM)
-* Learn to normalize data - [lecture](https://youtu.be/Tu8Dl3zorgg)
-* Find a dataset of your choice (other than the pima diabetes dataset), select two variables (one input and one output), perform univariate linear regression, and submit your notebook.
+In this activity, the goal is to practice univariate linear regression. When selecting  variables, i.e. your data columns, for performing linear regression, it is important to choose continous variables and not binary variables. Before feeding the data to the regression model, it is often important to normalize/standardarize your input dataset. You may need to normalize your data for regression to work. Here, the task is to perform univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
+* Lectures: [Univariate Linear Regression](https://youtu.be/yH7AUm2EHTM) and [Data normalization](https://youtu.be/Tu8Dl3zorgg)
+
+What to submit?  
+* A link to your notebook where you performed univariate linear regression on a dataset of your choice (other than the 'pima-diabetes' dataset).
 
 ## 5. Linear regression with two input variables (Chapter 18)
 * Practice linear regression with two input variables - [lecture](https://youtu.be/IOaif62O06k)
