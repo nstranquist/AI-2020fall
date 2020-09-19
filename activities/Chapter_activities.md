@@ -37,12 +37,14 @@ graph['B'] = ['A', 'D', 'E']
 ```
 
 ## 12. Alpha-beta pruning (Chapter 5)
-This is not a programming activity, you will solve it in paper. For the following game tree, (a)show which nodes/sub-tree will be pruned by the Alpha-Beta pruning algorithm, and (b) calculate the minimax values (the output of MAX-VALUE or MIN-VALUE) for the non-leaf nodes. 
+This is not a programming activity, you will solve it in paper. For the following game tree, (a) show which nodes/sub-tree will be pruned by the Alpha-Beta pruning algorithm, and (b) calculate the minimax values (the output of MAX-VALUE or MIN-VALUE) for the non-leaf nodes. 
  
 <img src="alpha-beta.png" align="middle" width="800"/>
 
 ## 15. Implement BM25 function (Chapter 22)
-* The objective in this activity is to search for 'relevant' document/s in a document corpus (database) by implementing the BM25 scoring function. [This 15 minute youtube video](https://www.youtube.com/watch?v=a3sg6MH8m4k&t=7s) may be helpful to review the basic idea of the BM25 scoring function. Task: A search query “Word1 Word2” is being scored against 40 documents. The number of times the words “Word1” and “Word2” appear in each of the documents is given in the [table](./bm25.csv). Write a Python program to calculate the BM25 score for the query against all the documents and rank the documents by their BM25 score. You will need to compute IDF, DF, TF, N, L, etc. by reading the table. Assume k = 1.2 and b = 0.75.  
+* The objective in this activity is to search for 'relevant' document/s in a document corpus (database) by implementing the BM25 scoring function. Task: A search query “Word1 Word2” is being scored against 40 documents. The number of times the words “Word1” and “Word2” appear in each of the documents is given in the [table](./bm25.csv). Write a Python program to calculate the BM25 score for the query against all the documents and rank the documents by their BM25 score. You will need to compute IDF, DF, TF, N, L, etc. by reading the table. Assume k = 1.2 and b = 0.75.  
+
+* Lectures: [BM25 scoring function](https://www.youtube.com/watch?v=a3sg6MH8m4k&t=7s)
 
   <img src="bm25.png" align="middle" width="800"/>
 
