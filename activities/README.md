@@ -162,6 +162,8 @@ In this activity, the task is to learn how to design and train a model that does
 1. Various optimizers (rmsprop, sgd, nadam, adam, gd, etc.)
 1. Various activation functions for the intermediate layers (relu, sigmoid, elu, etc.)
 
+* Lectures: [What are hyperparameters and why are they important](https://youtu.be/ggCYYgx2MNM) 
+
 What to submit?  
 * A link to your notebook with all the experiments.
 
