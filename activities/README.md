@@ -12,7 +12,7 @@
 * A link to your Colab notebook (must be publicly accesible with the link) for each activity.
 
 # Example
-* Miguel Corona, a student who is taking this class, has made his activities publicly accessible [here](https://github.com/mykon23/AI-2020/tree/master/Activities). You can refer to this to see how others are completing their activities. Thank you Miguel.
+* Miguel Corona, a student who is taking this class, has made his activities notebooks publicly accessible through his Github repositories [here](https://github.com/mykon23/AI-2020/tree/master/Activities). You can refer to this to see how others are completing their activities. Thank you Miguel.
 
 --------------  
 
