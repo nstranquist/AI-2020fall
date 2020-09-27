@@ -11,7 +11,7 @@ The [activities](./activities/README.md) that we will cover, will help you learn
 
 ## B. Expectations
 1. You will work on your projects individually (i.e. group submissions are not allowed).
-1. Reports for all phases (including the final report) must be prepared using <a href="https://www.overleaf.com/">Overleaf</a>. Non-overleaf submissions may not be graded at all. I do not provide any Overleaf templates, and you are free to use any templates you want.
+1. Reports for all phases (including the final report) must be prepared using <a href="https://www.overleaf.com/">Overleaf</a>. Non-overleaf submissions will receive a 0 (zero). You are free to use any templates you want. [Here](https://www.overleaf.com/read/vgckqpfdyrwp) is an example.
 
 ## C. Phases
 **In each phase you are exepected to submit:**  
