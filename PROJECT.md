@@ -27,7 +27,7 @@ Below is the list of all phases and the outline of what you will be working on i
 1. Discuss why you chose to work on this project.
 1. Describe the dataset and its source.
 1. Visualize/plot the distributions of each input features and discuss the range of the values (min, max, mean, median, etc.). For example, plot histograms showing distribution of each input features.
-1. Discuss the distribution of the output labels. In case of classification, check if the data is imbalanced, and in case of regression, check if the values are uniformly distributed or not.
+1. Discuss the distribution of the output labels. In the case of classification, check if the data is imbalanced by calculating what percentage of the output labels are 0 and what percentage are 1. If your dataset is heavily imbalanced (for example, 1% vs 99%) it may be easier if you choose a different dataset. In the case of regression, check if the values are uniformly distributed or not by plotting the distribution of the output variable.
 1. Discuss how you normalized your data.
 
 ### Phase II. Model selection & evaluation
