@@ -38,7 +38,9 @@ graph['B'] = ['A', 'D', 'E']
 
 ## 12. Alpha-beta pruning (Chapter 5)
 This is not a programming activity, you will solve it in paper (or in computer, if you prefer). For the following game tree show the values of α and β for all the non-leaf nodes (task 1) and show which nodes/sub-tree will be pruned (task 2) by the Alpha-Beta pruning algorithm. 
- 
+
+* Lectures: [Alpha-beta pruning algorithm](https://www.youtube.com/watch?v=n6mbgKICrVU)
+
 <img src="alpha-beta.png" align="middle" width="800"/>
 
 ## 15. Implement BM25 function (Chapter 22)  
