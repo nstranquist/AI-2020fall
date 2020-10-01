@@ -37,7 +37,7 @@ graph['B'] = ['A', 'D', 'E']
 ```
 
 ## 12. Alpha-beta pruning (Chapter 5)
-This is not a programming activity, you will solve it in paper. For the following game tree, (a) show which nodes/sub-tree will be pruned by the Alpha-Beta pruning algorithm, and (b) calculate the minimax values (the output of MAX-VALUE or MIN-VALUE) for the non-leaf nodes. 
+This is not a programming activity, you will solve it in paper (or in computer, if you prefer). For the following game tree show the values of α and β for all the non-leaf nodes (task 1) and show which nodes/sub-tree will be pruned (task 2) by the Alpha-Beta pruning algorithm. 
  
 <img src="alpha-beta.png" align="middle" width="800"/>
 
